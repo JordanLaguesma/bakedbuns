@@ -68,6 +68,7 @@ a {
 }
 
 .card {
+    border: 3px solid rgb(127, 127, 127);
     border-radius: 8px;
     height: 500px;
 }
