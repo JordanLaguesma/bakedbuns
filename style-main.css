@@ -16,7 +16,6 @@ body {
 #header {
     background-image: linear-gradient(to bottom, rgb(63, 191, 255), rgb(31, 0, 159));
     height: 67px;
-    width: auto;
 }
 
 #header ul {
@@ -32,6 +31,17 @@ li {
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+.main-container h1 {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(0, 0, 0));
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(255, 255 ,255);
+    margin-top: 20px;
+    padding: 13px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .card-container {
@@ -57,9 +67,20 @@ a {
     text-align: center;
 }
 
+.card {
+    border-radius: 8px;
+    height: 500px;
+}
+
+.card p {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
 .card img {
     height: 200px;
     width: 200px;
+    margin-top: 10px;
     transition: 0.2s;
 }
 
@@ -71,6 +92,5 @@ a {
 footer {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
-    height: 70px;
-    width: auto;
+    height: 100px;
 }
