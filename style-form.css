@@ -1,0 +1,37 @@
+#form {
+    background-color: #fff;
+    border: 3px solid #777;
+    padding: 20px;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+
+.field label {
+    display:block;
+    font-size: 12px;
+    color: #777;
+}
+
+.field input {
+    display: block;
+    min-width: 350px;
+    line-height: 2.0;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: #fff;
+    border: none;
+}
+
+#rem {
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
